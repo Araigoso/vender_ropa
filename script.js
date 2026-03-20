@@ -6,6 +6,36 @@ const productos = [
     img: "img/remera.jpg",
     vendido: false
   }
+
+    {
+    nombre: "Remera blanca",
+    precio: 5000,
+    talle: "M",
+    img: "img/remera.jpg",
+    vendido: false
+  }
+
+  {
+    nombre: "Remera blanca",
+    precio: 5000,
+    talle: "M",
+    img: "img/remera.jpg",
+    vendido: false
+  }
+  {
+    nombre: "Remera blanca",
+    precio: 5000,
+    talle: "M",
+    img: "img/remera.jpg",
+    vendido: false
+  }
+  {
+    nombre: "Remera blanca",
+    precio: 5000,
+    talle: "M",
+    img: "img/remera.jpg",
+    vendido: false
+  }
 ];
 
 const contenedor = document.getElementById("productos");
@@ -22,7 +52,7 @@ productos.forEach(p => {
     ${
       p.vendido
         ? "<span>VENDIDO</span>"
-        : `<a href="https://wa.me/549XXXXXXXXX?text=Quiero ${p.nombre}">Comprar</a>`
+        : `<a href="https://wa.me/5492944516029?text=Quiero ${p.nombre}">Comprar</a>`
     }
   `;
 
