@@ -30,18 +30,3 @@ a {
   padding: 5px 10px;
   text-decoration: none;
 }
-
-.card {
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.03);
-}
-
-span {
-  color: red;
-  font-weight: bold;
-}
