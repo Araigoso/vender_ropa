@@ -30,7 +30,7 @@ const productos = [
   {
     nombre: "Malla Amarilla - Nueva",
     precio: 15000,
-    talle: "M",
+    talle: "L",
     img: "img/Malla.png",
     vendido: false
   }
