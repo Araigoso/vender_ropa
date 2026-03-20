@@ -1,37 +1,37 @@
 const productos = [
   {
-    nombre: "Remera blanca",
-    precio: 5000,
+    nombre: "Buzo Manga Larga Brillo - Le utthe",
+    precio: 10000,
     talle: "M",
-    img: "img/remera.jpg",
+    img: "img/BuzoBrillo.png",
     vendido: false
   },
   {
-    nombre: "Remera blanca",
+    nombre: "Conjunto Gris - Shein",
     precio: 5000,
     talle: "M",
-    img: "img/remera.jpg",
+    img: "img/Conjunto.png",
     vendido: false
   },
   {
-    nombre: "Remera blanca",
-    precio: 5000,
-    talle: "M",
-    img: "img/remera.jpg",
+    nombre: "Jean Beige",
+    precio: 10000,
+    talle: "42",
+    img: "img/JeanBeige.png",
     vendido: false
   },
   {
-    nombre: "Remera blanca",
-    precio: 5000,
-    talle: "M",
-    img: "img/remera.jpg",
+    nombre: "Jean Blanco",
+    precio: 10000,
+    talle: "42",
+    img: "img/JeanBlanco.png",
     vendido: false
   },
   {
-    nombre: "Remera blanca",
-    precio: 5000,
+    nombre: "Malla Amarilla - Nueva",
+    precio: 15000,
     talle: "M",
-    img: "img/remera.jpg",
+    img: "img/Malla.png",
     vendido: false
   }
 ];
