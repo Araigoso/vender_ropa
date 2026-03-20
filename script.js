@@ -5,30 +5,28 @@ const productos = [
     talle: "M",
     img: "img/remera.jpg",
     vendido: false
-  }
-
-    {
-    nombre: "Remera blanca",
-    precio: 5000,
-    talle: "M",
-    img: "img/remera.jpg",
-    vendido: false
-  }
-
+  },
   {
     nombre: "Remera blanca",
     precio: 5000,
     talle: "M",
     img: "img/remera.jpg",
     vendido: false
-  }
+  },
   {
     nombre: "Remera blanca",
     precio: 5000,
     talle: "M",
     img: "img/remera.jpg",
     vendido: false
-  }
+  },
+  {
+    nombre: "Remera blanca",
+    precio: 5000,
+    talle: "M",
+    img: "img/remera.jpg",
+    vendido: false
+  },
   {
     nombre: "Remera blanca",
     precio: 5000,
