@@ -154,21 +154,41 @@ const productos = [
 
 const contenedor = document.getElementById("productos");
 
-productos.forEach(p => {
-  const div = document.createElement("div");
-  div.className = "card";
+function mostrarProductos(lista) {
+  contenedor.innerHTML = "";
 
-  div.innerHTML = `
-    <img src="${p.img}">
-    <h3>${p.nombre}</h3>
-    <p>Talle: ${p.talle}</p>
-    <p>$${p.precio}</p>
-    ${
-      p.vendido
-        ? "<span>VENDIDO</span>"
-        : `<a href="https://wa.me/5492944516029?text=Quiero ${p.nombre}">Comprar</a>`
-    }
-  `;
+  lista.forEach(p => {
+    const div = document.createElement("div");
+    div.className = "card";
 
-  contenedor.appendChild(div);
-});
+    div.innerHTML = `
+      <img src="${p.img}" 
+           onmouseover="this.src='${p.img2}'" 
+           onmouseout="this.src='${p.img}'">
+
+      <h3>${p.nombre}</h3>
+      <p>Talle: ${p.talle}</p>
+      <p>$${p.precio}</p>
+
+      ${
+        p.vendido
+          ? "<span>VENDIDO</span>"
+          : `<a href="https://wa.me/549XXXXXXXXX?text=Quiero ${p.nombre}">Comprar</a>`
+      }
+    `;
+
+    contenedor.appendChild(div);
+  });
+}
+
+function filtrar(categoria) {
+  if (categoria === "todos") {
+    mostrarProductos(productos);
+  } else {
+    const filtrados = productos.filter(p => p.categoria === categoria);
+    mostrarProductos(filtrados);
+  }
+}
+
+// mostrar todo al inicio
+mostrarProductos(productos);
