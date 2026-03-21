@@ -3,6 +3,7 @@ const productos = [
     nombre: "Sweater Manga Larga Brillo - Le utthe",
     precio: 10000,
     talle: "M",
+    categoria: "Sweaters",
     img: "img/BuzoBrillo.png",
     vendido: false
   },
@@ -10,6 +11,7 @@ const productos = [
     nombre: "Sweater Manga Larga Blanco con Perlas - Viaressa",
     precio: 10000,
     talle: "L",
+    categoria: "Sweaters",
     img: "img/SweterBlanco.png",
     vendido: false
   },
@@ -18,6 +20,7 @@ const productos = [
     nombre: "Top Verde - ZARA",
     precio: 8000,
     talle: "L",
+    categoria: "Top",
     img: "img/RemeraZara.png",
     vendido: false
   },
@@ -25,6 +28,7 @@ const productos = [
     nombre: "Conjunto Gris - Shein",
     precio: 5000,
     talle: "M",
+    categoria: "Remeras",
     img: "img/Conjunto.png",
     vendido: false
   },
@@ -32,6 +36,7 @@ const productos = [
     nombre: "Short Deportivo - Urb Sport",
     precio: 10000,
     talle: "L",
+    categoria: "Short",
     img: "img/ShortDeportivo.png",
     vendido: false
   },
@@ -39,6 +44,7 @@ const productos = [
     nombre: "Vestido Largo rojo",
     precio: 10000,
     talle: "L",
+    categoria: "Vestidos",
     img: "img/VestidoLargoRojo.png",
     vendido: false
   },
@@ -46,6 +52,7 @@ const productos = [
     nombre: "Remera Negra - AbsolutelyNot - Shein",
     precio: 5000,
     talle: "L",
+    categoria: "Remeras",
     img: "img/RemeraAbsolutelynot.png",
     vendido: false
   },
@@ -53,6 +60,7 @@ const productos = [
     nombre: "Top Beige",
     precio: 5000,
     talle: "L",
+    categoria: "Tops",
     img: "img/topBeige.png",
     vendido: false
   },
@@ -60,6 +68,7 @@ const productos = [
     nombre: "Vestido Negro al Cuerpo",
     precio: 8000,
     talle: "M/L",
+    categoria: "Vestidos",
     img: "img/VestidoNegroAlCuerpo.png",
     vendido: false
   },
@@ -67,6 +76,7 @@ const productos = [
     nombre: "Jean Beige - Maitry",
     precio: 10000,
     talle: "42",
+    categoria: "Pantalones",
     img: "img/JeanBeige.png",
     vendido: false
   },
@@ -74,6 +84,7 @@ const productos = [
     nombre: "Jean Blanco - Maitry",
     precio: 12000,
     talle: "42",
+    categoria: "Pantalones",
     img: "img/JeanBlanco.png",
     vendido: false
   },
@@ -81,6 +92,7 @@ const productos = [
     nombre: "Short/Pollera Beige - Kill",
     precio: 12000,
     talle: "42",
+    categoria: "Short",
     img: "img/ShortKilii.png",
     img2: "img/ShorKill.png",
     vendido: false
@@ -89,7 +101,53 @@ const productos = [
     nombre: "Malla Amarilla - Le Blue - Nueva",
     precio: 15000,
     talle: "L",
+    categoria: "Malla",
     img: "img/Malla.png",
+    vendido: false
+  },
+  {
+    nombre: "Malla Amarilla - Le Blue - Nueva",
+    precio: 15000,
+    talle: "L",
+    categoria: "Malla",
+    img: "img/Malla.png",
+    vendido: false
+  },
+  {
+    nombre: "Borcegos Negros",
+    precio: 10000,
+    talle: "40",
+    categoria: "Zapatillas/Borcegos/Tacos",
+    img: "img/BorcegosNegros.png",
+    img2: "img/BorcegosNegros2.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Borcegos Verde",
+    precio: 10000,
+    talle: "40",
+    categoria: "Zapatillas/Borcegos/Tacos",
+    img: "img/img/Botas.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Buzo Corto - Sybilla",
+    precio: 5000,
+    talle: "S",
+    categoria: "Sweaters",
+    img: "img/img/BuzoCorto.png",
+    img: "img/img/BuzoCorto1.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Calzas deportivas Adidas",
+    precio: 8000,
+    talle: "M",
+    categoria: "Deportivo",
+    img: "img/img/CalzasAdidas.png",
     vendido: false
   }
 ];
