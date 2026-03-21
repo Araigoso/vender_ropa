@@ -128,7 +128,7 @@ const productos = [
     precio: 10000,
     talle: "40",
     categoria: "Zapatillas/Borcegos/Tacos",
-    img: "img/img/Botas.png",
+    img: "img/Botas.png",
     vendido: false
   }
    ,
@@ -137,8 +137,8 @@ const productos = [
     precio: 5000,
     talle: "S",
     categoria: "Sweaters",
-    img: "img/img/BuzoCorto.png",
-    img: "img/img/BuzoCorto1.png",
+    img: "img/BuzoCorto.png",
+    img: "img/BuzoCorto1.png",
     vendido: false
   }
   ,
@@ -147,7 +147,7 @@ const productos = [
     precio: 8000,
     talle: "M",
     categoria: "Deportivo",
-    img: "img/img/CalzasAdidas.png",
+    img: "img/CalzasAdidas.png",
     vendido: false
   }
 ];
