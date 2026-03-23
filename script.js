@@ -150,6 +150,69 @@ const productos = [
     img: "img/CalzasAdidas.png",
     vendido: false
   }
+  ,
+  {
+    nombre: "Camisa Blanca Manga Larga - Sweet",
+    precio: 10000,
+    talle: "L",
+    categoria: "Camisa",
+    img: "img/CamisaBlanca.png",
+    vendido: false
+  },
+  {
+    nombre: "Campera Fina Jean",
+    precio: 10000,
+    talle: "L",
+    categoria: "Campera",
+    img: "img/CamperaJean.png",
+    img2: "img/ CamperaJean1.png",
+    vendido: false
+   } ,
+  {
+    nombre: "Campera Negra Reversible",
+    precio: 10000,
+    talle: "L",
+    categoria: "Campera",
+    img: "img/CamperaNegra.png",
+    img2: "img/CamperaNegra1.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Cartera Blanca - PRUNE",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/CarteraBlanca.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Chaleco Rojo",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/ChalecoRoko.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Chupin Negro",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/ChupinNegro.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Chupin Negro",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/ChupinNegro.png",
+    vendido: false
+  }
 ];
 
 const contenedor = document.getElementById("productos");
