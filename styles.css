@@ -48,6 +48,6 @@ a {
   cursor: pointer;
 }
 
-.filtros button:hover {
-  background: gray;
+img:hover {
+  opacity: 1;
 }
