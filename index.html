@@ -5,6 +5,25 @@
   <title>Vender en casa</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+  
+<script>
+function filtrar(categoria) {
+  let productos = document.querySelectorAll('.producto');
+
+  productos.forEach(producto => {
+    if (categoria === 'all') {
+      producto.style.display = 'block';
+    } else {
+      if (producto.classList.contains(categoria)) {
+        producto.style.display = 'block';
+      } else {
+        producto.style.display = 'none';
+      }
+    }
+  });
+}
+</script>
+  
 <body>
 
 <h1>Mi ropa en venta</h1>
@@ -24,24 +43,6 @@
 <div class="grid" id="productos"></div>
 
 <script src="script.js"></script>
-  
-<script>
-function filtrar(categoria) {
-  let productos = document.querySelectorAll('.producto');
-
-  productos.forEach(producto => {
-    if (categoria === 'all') {
-      producto.style.display = 'block';
-    } else {
-      if (producto.classList.contains(categoria)) {
-        producto.style.display = 'block';
-      } else {
-        producto.style.display = 'none';
-      }
-    }
-  });
-}
-</script>
   
 </body>
 </html>
