@@ -295,15 +295,6 @@ const productos = [
     img: "img/PantaloonBeige.png",
     vendido: false
   }
-   ,
-  {
-    nombre: "Pantalon Beige - Claro",
-    precio: 15000,
-    talle: "L",
-    categoria: "Pantalones",
-    img: "img/PantaloonBeige.png",
-    vendido: false
-  }
   ,
   {
     nombre: "Remera Verde",
