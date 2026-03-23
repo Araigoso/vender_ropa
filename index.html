@@ -7,18 +7,14 @@
 </head>
   
 <script>
-function filtrar(categoria) {
+function filtrar(filtro) {
   let productos = document.querySelectorAll('.producto');
 
   productos.forEach(producto => {
-    if (categoria === 'all') {
-      producto.style.display = 'block';
+    if (filtro === 'all' || producto.classList.contains(filtro)) {
+      producto.style.display = '';
     } else {
-      if (producto.classList.contains(categoria)) {
-        producto.style.display = 'block';
-      } else {
-        producto.style.display = 'none';
-      }
+      producto.style.display = 'none';
     }
   });
 }
