@@ -466,7 +466,9 @@ function mostrarProductos(lista) {
       ${
         p.vendido
           ? "<span>VENDIDO</span>"
-          : `<a href="https://wa.me/549XXXXXXXXX?text=Quiero ${p.nombre}">Comprar</a>`
+          : `<a class="btn-comprar" href="https://wa.me/549XXXXXXXXX?text=Quiero ${p.nombre}">
+  Comprar
+</a>`
       }
     `;
 
