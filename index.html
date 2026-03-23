@@ -7,11 +7,11 @@
 </head>
   
 <script>
-function filtrar(filtros) {
+function filtrar(categoria) {
   let productos = document.querySelectorAll('.producto');
 
   productos.forEach(producto => {
-    if (filtros === 'all' || producto.classList.contains(filtros)) {
+    if (categoria === 'all' || producto.classList.contains(categoria)) {
       producto.style.display = '';
     } else {
       producto.style.display = 'none';
@@ -24,7 +24,7 @@ function filtrar(filtros) {
 
 <h1>Mi ropa en venta</h1>
 
-<div class="filtros">
+<div class="categoria">
   <button onclick="filtrar('all')">Todo</button>
   <button onclick="filtrar('Sweaters')">Sweaters</button>
   <button onclick="filtrar('Top / Remeras')">Remeras / Top</button>
