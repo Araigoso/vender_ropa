@@ -41,11 +41,16 @@ a {
 
 .filtros button {
   margin: 5px;
-  padding: 8px 15px;
+  padding: 10px 15px;
   border: none;
   background: black;
   color: white;
   cursor: pointer;
+  border-radius: 20px;
+}
+
+.filtros button:hover {
+  background: gray;
 }
 
 img {
