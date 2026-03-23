@@ -48,6 +48,10 @@ a {
   cursor: pointer;
 }
 
+img {
+  transition: transform 0.3s ease;
+}
+
 img:hover {
-  opacity: 1;
+  transform: scale(1.05);
 }
