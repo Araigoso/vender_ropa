@@ -6,20 +6,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
   
-<script>
-function filtrar(categoria) {
-  let productos = document.querySelectorAll('.producto');
-
-  productos.forEach(producto => {
-    if (categoria === 'all' || producto.classList.contains(categoria)) {
-      producto.style.display = '';
-    } else {
-      producto.style.display = 'none';
-    }
-  });
-}
-</script>
-  
 <body>
 
 <h1>Mi ropa en venta</h1>
