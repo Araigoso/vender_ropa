@@ -106,11 +106,11 @@ const productos = [
     vendido: false
   },
   {
-    nombre: "Malla Amarilla - Le Blue - Nueva",
+    nombre: "Top musculosa Verde",
     precio: 15000,
     talle: "L",
     categoria: "Malla",
-    img: "img/Malla.png",
+    img: "img/Topverde_otro.png",
     vendido: false
   },
   {
