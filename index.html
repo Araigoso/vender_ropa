@@ -10,15 +10,38 @@
 <h1>Mi ropa en venta</h1>
 
 <div class="filtros">
-  <button onclick="filtrar('todos')">Todos</button>
-  <button onclick="filtrar('remeras')">Remeras</button>
-  <button onclick="filtrar('jeans')">Jeans</button>
-  <button onclick="filtrar('camperas')">Camperas</button>
+  <button onclick="filtrar('all')">Todo</button>
+  <button onclick="filtrar('Sweaters')">Sweaters</button>
+  <button onclick="filtrar('Top / Remeras')">Remeras / Top</button>
+  <button onclick="filtrar('Pantalones')">Pantalones / Jean</button>
+  <button onclick="filtrar('Short / Polleras')">Short / Polleras</button>
+  <button onclick="filtrar('Deportivo')">Deportivo</button>
+  <button onclick="filtrar('carteras')">Carteras</button>
+  <button onclick="filtrar('camisas')">Camisas</button>
+  <button onclick="filtrar('Zapatillas/Borcegos/Tacos')">Zapatillas/Borcegos/Tacos</button>
 </div>
 
 <div class="grid" id="productos"></div>
 
 <script src="script.js"></script>
+  
+<script>
+function filtrar(categoria) {
+  let productos = document.querySelectorAll('.producto');
 
+  productos.forEach(producto => {
+    if (categoria === 'all') {
+      producto.style.display = 'block';
+    } else {
+      if (producto.classList.contains(categoria)) {
+        producto.style.display = 'block';
+      } else {
+        producto.style.display = 'none';
+      }
+    }
+  });
+}
+</script>
+  
 </body>
 </html>
