@@ -20,7 +20,7 @@ const productos = [
     nombre: "Top Verde - ZARA",
     precio: 8000,
     talle: "L",
-    categoria: "Top",
+    categoria: "Top / Remeras",
     img: "img/RemeraZara.png",
     vendido: false
   },
@@ -28,7 +28,7 @@ const productos = [
     nombre: "Conjunto Gris - Shein",
     precio: 5000,
     talle: "M",
-    categoria: "Remeras",
+    categoria: "Top / Remeras",
     img: "img/Conjunto.png",
     vendido: false
   },
@@ -36,7 +36,7 @@ const productos = [
     nombre: "Short Deportivo - Urb Sport",
     precio: 10000,
     talle: "L",
-    categoria: "Short",
+    categoria: "Short / Polleras",
     img: "img/ShortDeportivo.png",
     vendido: false
   },
@@ -52,7 +52,7 @@ const productos = [
     nombre: "Remera Negra - AbsolutelyNot - Shein",
     precio: 5000,
     talle: "L",
-    categoria: "Remeras",
+    categoria: "Top / Remeras",
     img: "img/RemeraAbsolutelynot.png",
     vendido: false
   },
@@ -60,7 +60,7 @@ const productos = [
     nombre: "Top Beige",
     precio: 5000,
     talle: "L",
-    categoria: "Tops",
+    categoria: "Top / Remeras",
     img: "img/topBeige.png",
     vendido: false
   },
@@ -92,7 +92,7 @@ const productos = [
     nombre: "Short/Pollera Beige - Kill",
     precio: 12000,
     talle: "42",
-    categoria: "Short",
+    categoria: "Short / Polleras",
     img: "img/ShortKilii.png",
     img2: "img/ShorKill.png",
     vendido: false
@@ -109,7 +109,7 @@ const productos = [
     nombre: "Top musculosa Verde",
     precio: 15000,
     talle: "L",
-    categoria: "Malla",
+    categoria: "Top / Remeras",
     img: "img/Topverde_otro.png",
     vendido: false
   },
@@ -163,7 +163,7 @@ const productos = [
     nombre: "Campera Fina Jean",
     precio: 10000,
     talle: "L",
-    categoria: "Campera",
+    categoria: "Camisa",
     img: "img/CamperaJean.png",
     img2: "img/ CamperaJean1.png",
     vendido: false
@@ -191,7 +191,7 @@ const productos = [
     nombre: "Chaleco Rojo",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Chaleco",
     img: "img/ChalecoRoko.png",
     vendido: false
   }
@@ -200,7 +200,7 @@ const productos = [
     nombre: "Chupin Negro",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/ChupinNegro.png",
     vendido: false
   }
@@ -209,7 +209,7 @@ const productos = [
     nombre: "Jogging Blanco",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/JoggingBlanco.png",
     vendido: false
   }
@@ -218,7 +218,7 @@ const productos = [
     nombre: "Jogging Blanco",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/MonoBlanco.png",
     img2: "img/MonoBlanco1.png",
     vendido: false
@@ -228,7 +228,7 @@ const productos = [
     nombre: "Musculosa Blanca",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/MusculosaBlanca.png",
     vendido: false
   }
@@ -237,7 +237,7 @@ const productos = [
     nombre: "Musculosa Colores",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/MusculosaColores.png",
     vendido: false
   }
@@ -246,7 +246,7 @@ const productos = [
     nombre: "Musculosa Negra / Blanca",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/MusculosaNegraBlanca.png",
     vendido: false
   }
@@ -255,7 +255,7 @@ const productos = [
     nombre: "Musculosa Verde Tejida",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/MusculosaNerde.png",
     vendido: false
   }
@@ -264,7 +264,7 @@ const productos = [
     nombre: "Musculosa Zara - Nueva",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/MusculosaZara.png",
     vendido: false
   }
@@ -273,7 +273,7 @@ const productos = [
     nombre: "Pantalon Beige",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/PantalonBeige.png",
     vendido: false
   }
@@ -282,7 +282,7 @@ const productos = [
     nombre: "Pantalon Montange",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/PantalonMontange.png",
     vendido: false
   }
@@ -291,7 +291,7 @@ const productos = [
     nombre: "Pantalon Beige - Claro",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/PantaloonBeige.png",
     vendido: false
   }
@@ -300,7 +300,7 @@ const productos = [
     nombre: "Pantalon Beige - Claro",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/PantaloonBeige.png",
     vendido: false
   }
@@ -309,7 +309,7 @@ const productos = [
     nombre: "Remera Verde",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/RemeraVerde.png",
     img1: "img/RemeraVerde1.png",
     vendido: false
@@ -319,7 +319,7 @@ const productos = [
     nombre: "Remera Zara Negra Manga Corta",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/RemeraZaraNegra.png",
     vendido: false
   }
@@ -334,19 +334,10 @@ const productos = [
   }
    ,
   {
-    nombre: "Riñonera",
-    precio: 15000,
-    talle: "L",
-    categoria: "Cartera",
-    img: "img/ShortNegro_jean.png",
-    vendido: false
-  }
-    ,
-  {
     nombre: "Top Negro Escote en V",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/topNegroEsote.png",
     vendido: false
   }
@@ -355,7 +346,7 @@ const productos = [
     nombre: "Top Beige Escote en V",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/topBeige.png",
     vendido: false
   }
@@ -364,16 +355,7 @@ const productos = [
     nombre: "Tacos Negros",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
-    img: "img/tacosNegros2.png",
-    vendido: false
-  }
-   ,
-  {
-    nombre: "Tacos Negros",
-    precio: 15000,
-    talle: "L",
-    categoria: "Cartera",
+    categoria: "Zapatillas/Borcegos/Tacos",
     img: "img/tacosNegros2.png",
     vendido: false
   }
@@ -382,7 +364,7 @@ const productos = [
     nombre: "Jean",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Pantalones",
     img: "img/jeanCande.png",
     vendido: false
   }
@@ -391,7 +373,7 @@ const productos = [
     nombre: "Vestido Rojo Suelto",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoRojoSuelto.png",
     vendido: false
   }
@@ -400,7 +382,7 @@ const productos = [
     nombre: "Vestido Rojo Largo",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoRojoLargo1.png",
     img1: "img/VestidoRojoLargo.png",
     vendido: false
@@ -410,7 +392,7 @@ const productos = [
     nombre: "Vestido Negro Fiesta",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoNegroFIesta.png",
     img1: "img/VestidoNegroFIesta1.png",
     vendido: false
@@ -420,7 +402,7 @@ const productos = [
     nombre: "Vestido Negro al cuerpo",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoNegroAlcuerpo_otro.png",
     vendido: false
   }
@@ -429,7 +411,7 @@ const productos = [
     nombre: "Vestido Marron Suelto Fiesta",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoMarron1.png",
     img1: "img/VVestidoMarron.png",
     vendido: false
@@ -439,7 +421,7 @@ const productos = [
     nombre: "Vestido Rojo Largo",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoLargoRojo.png",
     vendido: false
   }
@@ -448,7 +430,7 @@ const productos = [
     nombre: "Vestido Flores",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Vestidos",
     img: "img/VestidoFlores.png",
     vendido: false
   }
@@ -457,7 +439,7 @@ const productos = [
     nombre: "Top Verde",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/Topverde_otro.png",
     vendido: false
   }
@@ -466,7 +448,7 @@ const productos = [
     nombre: "Top Sweet - Nuevo",
     precio: 15000,
     talle: "L",
-    categoria: "Cartera",
+    categoria: "Top / Remeras",
     img: "img/TopSweetNuevo.png",
     vendido: false
   }
