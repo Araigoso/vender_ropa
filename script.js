@@ -146,7 +146,7 @@ const productos = [
     nombre: "Calzas deportivas Adidas",
     precio: 8000,
     talle: "M",
-    categoria: "Deportivo",
+    categoria: "Pantalones",
     img: "img/CalzasAdidas.png",
     vendido: false
   }
