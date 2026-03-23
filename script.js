@@ -302,7 +302,7 @@ const productos = [
     talle: "L",
     categoria: "Top / Remeras",
     img: "img/RemeraVerde.png",
-    img1: "img/RemeraVerde1.png",
+    img2: "img/RemeraVerde1.png",
     vendido: false
   }
   ,
@@ -375,7 +375,7 @@ const productos = [
     talle: "L",
     categoria: "Vestidos",
     img: "img/VestidoRojoLargo1.png",
-    img1: "img/VestidoRojoLargo.png",
+    img2: "img/VestidoRojoLargo.png",
     vendido: false
   }
   ,
@@ -385,7 +385,7 @@ const productos = [
     talle: "L",
     categoria: "Vestidos",
     img: "img/VestidoNegroFIesta.png",
-    img1: "img/VestidoNegroFIesta1.png",
+    img2: "img/VestidoNegroFIesta1.png",
     vendido: false
   }
   ,
@@ -404,7 +404,7 @@ const productos = [
     talle: "L",
     categoria: "Vestidos",
     img: "img/VestidoMarron1.png",
-    img1: "img/VVestidoMarron.png",
+    img2: "img/VVestidoMarron.png",
     vendido: false
   }
     ,
@@ -456,8 +456,8 @@ function mostrarProductos(lista) {
 
     div.innerHTML = `
       <img src="${p.img}" 
-           onmouseover="this.src='${p.img2}'" 
-           onmouseout="this.src='${p.img}'">
+  onmouseover="${p.img2 ? `this.src='${p.img2}'` : ''}" 
+  onmouseout="this.src='${p.img}'">
 
       <h3>${p.nombre}</h3>
       <p>Talle: ${p.talle}</p>
