@@ -7,11 +7,11 @@
 </head>
   
 <script>
-function filtrar(filtro) {
+function filtrar(filtros) {
   let productos = document.querySelectorAll('.producto');
 
   productos.forEach(producto => {
-    if (filtro === 'all' || producto.classList.contains(filtro)) {
+    if (filtros === 'all' || producto.classList.contains(filtros)) {
       producto.style.display = '';
     } else {
       producto.style.display = 'none';
