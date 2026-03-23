@@ -215,10 +215,10 @@ const productos = [
   }
    ,
   {
-    nombre: "Jogging Blanco",
+    nombre: "Mono Blanco - Musculosa",
     precio: 15000,
     talle: "L",
-    categoria: "Pantalones",
+    categoria: "Vestidos",
     img: "img/MonoBlanco.png",
     img2: "img/MonoBlanco1.png",
     vendido: false
