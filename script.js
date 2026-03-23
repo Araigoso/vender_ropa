@@ -206,11 +206,268 @@ const productos = [
   }
   ,
   {
-    nombre: "Chupin Negro",
+    nombre: "Jogging Blanco",
     precio: 15000,
     talle: "L",
     categoria: "Cartera",
-    img: "img/ChupinNegro.png",
+    img: "img/JoggingBlanco.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Jogging Blanco",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MonoBlanco.png",
+    img2: "img/MonoBlanco1.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Musculosa Blanca",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MusculosaBlanca.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Musculosa Colores",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MusculosaColores.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Musculosa Negra / Blanca",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MusculosaNegraBlanca.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Musculosa Verde Tejida",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MusculosaNerde.png",
+    vendido: false
+  }
+     ,
+  {
+    nombre: "Musculosa Zara - Nueva",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/MusculosaZara.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Pantalon Beige",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/PantalonBeige.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Pantalon Montange",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/PantalonMontange.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Pantalon Beige - Claro",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/PantaloonBeige.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Pantalon Beige - Claro",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/PantaloonBeige.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Remera Verde",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/RemeraVerde.png",
+    img1: "img/RemeraVerde1.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Remera Zara Negra Manga Corta",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/RemeraZaraNegra.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Riñonera",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/Riñonera.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Riñonera",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/ShortNegro_jean.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Top Negro Escote en V",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/topNegroEsote.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Top Beige Escote en V",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/topBeige.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Tacos Negros",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/tacosNegros2.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Tacos Negros",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/tacosNegros2.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Jean",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/jeanCande.png",
+    vendido: false
+  }
+   ,
+  {
+    nombre: "Vestido Rojo Suelto",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoRojoSuelto.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Vestido Rojo Largo",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoRojoLargo1.png",
+    img1: "img/VestidoRojoLargo.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Vestido Negro Fiesta",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoNegroFIesta.png",
+    img1: "img/VestidoNegroFIesta1.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Vestido Negro al cuerpo",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoNegroAlcuerpo_otro.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Vestido Marron Suelto Fiesta",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoMarron1.png",
+    img1: "img/VVestidoMarron.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Vestido Rojo Largo",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoLargoRojo.png",
+    vendido: false
+  }
+  ,
+  {
+    nombre: "Vestido Flores",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/VestidoFlores.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Top Verde",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/Topverde_otro.png",
+    vendido: false
+  }
+    ,
+  {
+    nombre: "Top Sweet - Nuevo",
+    precio: 15000,
+    talle: "L",
+    categoria: "Cartera",
+    img: "img/TopSweetNuevo.png",
     vendido: false
   }
 ];
