@@ -484,7 +484,7 @@ function mostrarProductos(lista) {
 }
 
 function filtrar(categoria) {
-  if (categoria === "todos") {
+  if (categoria === "all") {
     mostrarProductos(productos);
   } else {
     const filtrados = productos.filter(p => p.categoria === categoria);
