@@ -17,9 +17,11 @@ h1 {
 
 .subtitulo {
   text-align: center;
-  font-size: 14px;
-  color: #777;
-  margin-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 25px;
 }
 
 /* CATEGORIAS */
