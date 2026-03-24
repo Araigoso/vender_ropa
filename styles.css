@@ -33,7 +33,7 @@ h1 {
   padding: 5px;
 }
 
-/* LINEA ABAJO (efecto Zara) */
+/* línea tipo Zara */
 .categoria button::after {
   content: "";
   position: absolute;
@@ -55,10 +55,15 @@ h1 {
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 25px;
   padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* CARD */
 .card {
+  display: flex;
+  flex-direction: column;
+  min-height: 380px;
   transition: 0.3s;
 }
 
@@ -69,6 +74,8 @@ h1 {
 /* IMAGEN */
 .card img {
   width: 100%;
+  height: 220px;
+  object-fit: cover;
   border-radius: 8px;
 }
 
@@ -77,6 +84,7 @@ h1 {
   font-size: 14px;
   font-weight: 500;
   margin: 10px 0 5px;
+  min-height: 35px;
 }
 
 .card p {
@@ -89,7 +97,7 @@ h1 {
 .btn-comprar {
   display: block;
   text-align: center;
-  margin-top: 10px;
+  margin-top: auto;
   padding: 8px;
   border: 1px solid black;
   color: black;
@@ -101,4 +109,12 @@ h1 {
 .btn-comprar:hover {
   background: black;
   color: white;
+}
+
+/* VENDIDO */
+.card span {
+  margin-top: auto;
+  font-size: 12px;
+  color: red;
+  text-align: center;
 }
