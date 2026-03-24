@@ -129,3 +129,47 @@ h1 {
   color: red;
   text-align: center;
 }
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .subtitulo {
+    font-size: 11px;
+  }
+
+  .categoria {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .categoria button {
+    font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .card h3 {
+    font-size: 12px;
+  }
+
+  .card p {
+    font-size: 11px;
+  }
+
+  .btn-comprar {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
