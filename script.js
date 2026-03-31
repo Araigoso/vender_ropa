@@ -433,6 +433,15 @@ const productos = [
     img: "img/VestidoFlores.png",
     vendido: false
   }
+  ,
+  {
+    nombre: "Vestido Negro al Cuerpo",
+    precio: 5000,
+    talle: "M",
+    categoria: "Vestidos",
+    img: "img/VestidoNegroAlcuerpo_otro.png",
+    vendido: false
+  }
     ,
   {
     nombre: "Top Verde",
