@@ -3,6 +3,7 @@ body {
   margin: 0;
   background: white;
   color: #111;
+  font-size: clamp(16px, 2vw, 20px);
 }
 
 /* TITULO */
