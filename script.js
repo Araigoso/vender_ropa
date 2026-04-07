@@ -470,6 +470,7 @@ function mostrarProductos(lista) {
   lista.forEach(p => {
     const div = document.createElement("div");
     div.className = "card";
+    div.onclick = () => abrirModal(p);
 
     div.innerHTML = `
       <img src="${p.img}" 
@@ -500,6 +501,22 @@ function filtrar(categoria) {
     const filtrados = productos.filter(p => p.categoria === categoria);
     mostrarProductos(filtrados);
   }
+}
+
+function abrirModal(p) {
+  document.getElementById("modal").style.display = "block";
+
+  document.getElementById("modal-img").src = p.img;
+  document.getElementById("modal-nombre").innerText = p.nombre;
+  document.getElementById("modal-talle").innerText = "Talle: " + p.talle;
+  document.getElementById("modal-precio").innerText = "$" + p.precio;
+
+  document.getElementById("modal-link").href =
+    `https://wa.me/5492944516029text=Quiero ${p.nombre}`;
+}
+
+function cerrarModal() {
+  document.getElementById("modal").style.display = "none";
 }
 
 // mostrar todo al inicio
